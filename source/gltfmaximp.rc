@@ -1,0 +1,29 @@
+// Resource script for gltfmaximp.dli
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "windows.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif
+
+STRINGTABLE DISCARDABLE
+BEGIN
+    IDS_LIBDESCRIPTION      "glTF/GLB Importer for 3ds Max"
+    IDS_IMPORTER_NAME       "glTF Scene Import"
+    IDS_IMPORTER_FILE       "glTF 2.0 Scene File"
+    IDS_IMPORTER_SHORT      "glTF"
+    IDS_IMPORTER_AUTHOR     "angelstance"
+    IDS_IMPORTER_COPYRIGHT  "Copyright 2026"
+END
+
+#endif
+
+#ifndef APSTUDIO_INVOKED
+#include "veroverrides.h"
+#include "maxversion.r"
+#endif
